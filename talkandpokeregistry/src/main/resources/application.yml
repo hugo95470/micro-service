@@ -1,0 +1,11 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates/
+    prefer-file-system-access: false
+server:
+  port: 8761
+
+eureka:
+  instance:
+    preferIpAddress: true
+    ip-address: localhost
